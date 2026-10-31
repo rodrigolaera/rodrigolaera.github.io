@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rodrigo Laera · Epistemology, rationality and philosophy of economics</title>
+<meta name="description" content="Academic website of Rodrigo Laera, PhD in Philosophy and PhD in Economics, Assistant Researcher at CONICET. CV, publications, how to cite and discussion forum.">
+<meta name="page-lang" content="en" data-es="index.html" data-en="en.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rodrigo Laera · Epistemology, rationality and philosophy of economics">
+<meta property="og:description" content="Academic website of Rodrigo Laera, PhD in Philosophy and PhD in Economics, Assistant Researcher at CONICET. CV, publications, how to cite and discussion forum.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#inicio">R. Laera</a>
+    <nav id="menu">
+      <a href="#investigacion" data-i="nav.research"></a>
+      <a href="#publicaciones" data-i="nav.pubs"></a>
+      <a href="#trayectoria" data-i="nav.career"></a>
+      <a href="#foro" data-i="nav.forum"></a>
+      <a href="#contacto" data-i="nav.contact"></a>
+    </nav>
+    <a id="lang" class="pill-btn" href="index.html" hreflang="es"></a>
+    <button id="theme" class="icon-btn" type="button">◐</button>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="wrap">
+    <p class="eyebrow" data-i="eyebrow"></p>
+    <h1>Rodrigo Laera</h1>
+    <p class="lead" data-i="lead"></p>
+    <div class="cta">
+      <a class="btn primary" href="#publicaciones" data-i="cta1"></a>
+      <a class="btn" href="#foro" data-i="cta2"></a>
+    </div>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</section>
+
+<section id="investigacion" class="block">
+  <div class="wrap">
+    <h2 data-i="areasTitle"></h2>
+    <div class="cards three" id="areas"></div>
+  </div>
+</section>
+
+<section id="publicaciones" class="block alt">
+  <div class="wrap">
+    <h2 data-i="pubsTitle"></h2>
+    <p class="sub" data-i="pubsSub"></p>
+    <div class="tabs" role="tablist" id="tabs">
+      <button type="button" role="tab" class="on" data-tab="art"></button>
+      <button type="button" role="tab" data-tab="book"></button>
+      <button type="button" role="tab" data-tab="chap"></button>
+    </div>
+    <div id="filters" class="filters">
+      <input id="q" type="search" aria-label="Search">
+      <select id="topic" aria-label="Topic"></select>
+      <select id="year" aria-label="Year"></select>
+      <label id="oa-wrap" class="check" hidden><input id="oa" type="checkbox"><span data-i="onlyOA"></span></label>
+    </div>
+    <p id="count" class="count" aria-live="polite"></p>
+    <div id="list" class="list"></div>
+  </div>
+</section>
+
+<section id="trayectoria" class="block">
+  <div class="wrap">
+    <h2 data-i="careerTitle"></h2>
+    <div class="cols">
+      <div>
+        <h3 data-i="education"></h3>
+        <ol class="timeline" id="edu"></ol>
+        <h3 data-i="positions"></h3>
+        <ol class="timeline" id="pos"></ol>
+      </div>
+      <div>
+        <h3 data-i="projects"></h3>
+        <ol class="timeline" id="proj"></ol>
+        <h3 data-i="grants"></h3>
+        <ul class="plain" id="grants"></ul>
+      </div>
+    </div>
+    <h3 class="mt" data-i="talksH"></h3>
+    <details class="talks"><summary id="talks-sum"></summary>
+      <ul class="plain" id="talks"></ul>
+    </details>
+  </div>
+</section>
+
+<section id="foro" class="block alt">
+  <div class="wrap narrow">
+    <h2 data-i="forumTitle"></h2>
+    <p class="sub" data-i="forumSub"></p>
+    <label class="field"><span data-i="thread"></span>
+      <select id="thread"></select>
+    </label>
+    <div id="giscus-box"></div>
+  </div>
+</section>
+
+<section id="contacto" class="block">
+  <div class="wrap narrow">
+    <h2 data-i="contactTitle"></h2>
+    <p class="sub" data-i="contactSub"></p>
+    <p class="mail"><a id="mail" href="mailto:rodrigolaera@gmail.com">rodrigolaera@gmail.com</a></p>
+    <div id="profiles" class="profiles" hidden>
+      <h3 data-i="profiles"></h3>
+      <div class="cta" id="profile-links"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Rodrigo Laera · <span data-i="footer"></span></div></footer>
+
+<script src="data.js"></script>
+<script src="i18n.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
