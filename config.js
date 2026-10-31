@@ -1,7 +1,7 @@
 // Configuración del sitio. Completá estos valores (ver README.md).
 window.SITE = {
   siteUrl: "https://rodrigolaera.github.io",               // URL final del sitio, ej. "https://rodrigolaera.com" (activa canonical, hreflang y datos estructurales)
-  scholarUrl: "",            // Google Académico
+  scholarUrl: "https://scholar.google.com/citations?user=o_QjSNEAAAAJ",            // Google Académico
   profiles: {                // Perfiles académicos (dejá vacío lo que no uses)
     orcid: "https://orcid.org/0000-0002-5132-7631",               // https://orcid.org/0000-0000-0000-0000
     philpapers: "https://philpeople.org/profiles/rodrigo-laera",          // https://philpeople.org/profiles/...
