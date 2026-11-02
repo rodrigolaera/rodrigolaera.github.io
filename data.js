@@ -9,7 +9,7 @@ window.TOPICS = {
 // [tema, año, título, revista, detalle, enlace|doi, coautor]
 window.ARTICLES = [
 ["eth",2026,"The Entrenchment of Epistemic Injustice: Water, Gender, and the Incompleteness of the Human Right to Water and Sanitation","Res Publica","En prensa","",""],
-["eco",2026,"Belief updating frictions and delayed trade in bilateral markets with heterogeneous beliefs: a dynamic model with bilateral viscosity and heterogeneous updating rules","Journal of Economic Interaction and Coordination","En prensa","",""],
+["eco",2026,"Belief updating frictions and delayed trade in bilateral markets with heterogeneous beliefs: a dynamic model with bilateral viscosity and heterogeneous updating rules","Journal of Economic Interaction and Coordination","Online first","10.1007/s11403-026-00506-1",""],
 ["eth",2026,"Beyond Incentives: A Davidsonian Reconceptualization of Organizational Agency","Business and Professional Ethics Journal","En prensa","",""],
 ["epi",2026,"The Akratic Structure of Skeptical Doubt","Organon F","En prensa","",""],
 ["eth",2026,"Acting as If: Weak Practical Transcendence and the Rationality of Posthumous Care","Journal of Evaluation in Clinical Practice","32, e70473","10.1111/jep.70473",""],
